@@ -1,12 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Febrian Amir</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- highlight -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"
+    />
+    <link href="./src/hljs-theme/atom-one-dark.css" rel="stylesheet" />
+
+    <link href="./src/style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>My New Site</h1>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="header-title">FEBRIAN AMIR</h1>
+      </div>
+      <div class="content">
+        <div class="content-header">
+          <h1 class="content-title">Content Title</h1>
+          <p class="content-date">09/11/2024</p>
+        </div>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+          ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
+          ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+          qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </p>
+
+        <h2 class="content-subtitle">Content Subtitle</h2>
+        <pre class="content-code"><code class="language-go">// main.go
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello, 世界")
+}
+</code></pre>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

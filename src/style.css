@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+}
+
+.header {
+  border-bottom: 1px solid #333333;
+  margin-bottom: 4rem;
+}
+
+.header-title {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+.content-header {
+  margin: 2rem 0;
+}
+
+.content-title,
+.content-date {
+  margin: 0;
+}
+
+.content-date {
+  font-weight: 600;
+  color: #888888;
+}
+
+.content-code {
+  margin: 0;
+}
+
+.content-code code {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  font-size: 0.9rem;
+  font-family: "JetBrains Mono", monospace;
+}
