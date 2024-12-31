@@ -6,9 +6,11 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 50rem;
+  color: #3b3b3b;
 }
 
 .header {
+  padding: 1rem 0 2rem 0;
   border-bottom: 1px solid #333333;
   margin-bottom: 4rem;
 }
@@ -16,6 +18,16 @@ body {
 .header-title {
   font-weight: 800;
   font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.header-text {
+  margin: 0;
+}
+
+.article-link {
+  color: #7fa465;
 }
 
 .content p {
