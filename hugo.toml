@@ -8,3 +8,7 @@ pagerSize = 10
   author = 'Febrian Amir'
   description = 'Software Developer'
   github = 'https://github.com/febrianamir'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
