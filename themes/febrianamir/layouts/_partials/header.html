@@ -1,5 +1,10 @@
 <header class="header">
   <h1 class="header-title">{{ site.Title }}</h1>
-  <p class="header-subtitle">Software Developer</p>
+  <p class="header-subtitle">Software Engineer</p>
+  <button id="header-theme-toggle" aria-label="Toggle Dark Mode">
+    <svg viewBox="0 0 24 24" width="24" height="24">
+      <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/>
+    </svg>
+  </button>
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 </header>

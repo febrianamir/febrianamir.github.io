@@ -1,8 +1,15 @@
 :root {
+  --color-bg: #F4F4F4;
   --color-text: #2E3532;
   --color-text-accent: #8FB28A;
   --color-text-accent-2: #A2A9A6;
   --color-text-accent-3: #799675;
+
+ --color-dark-bg: #1E1E1E;              /* dark neutral background */
+  --color-dark-text: #E6E6E6;            /* light neutral text */
+  --color-dark-text-accent: #9CCF96;     /* lighter green for visibility */
+  --color-dark-text-accent-2: #B5BCB8;   /* softer grey-green */
+  --color-dark-text-accent-3: #93B689;   /* mid green-grey */
 }
 
 /* Fonts */
@@ -22,10 +29,18 @@
   font-display: swap;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Inter, sans-serif;
   color: var(--color-text);
+  background-color: var(--color-bg);
+  transition: 0.2s ease;
 }
 
 a {
@@ -49,13 +64,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
+  position: relative;
   margin: 5rem auto;
-  max-width: 45rem;
+  padding: 0 2rem;
+  max-width: 49rem;
 }
 
 /* Header */
 .header {
-
+  position: relative;
 }
 
 .header-title {
@@ -64,6 +81,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-subtitle {
   margin: 0;
+}
+
+/* Theme Toggle */
+#header-theme-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: inherit; /* inherits text color */
+}
+
+#header-theme-toggle svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor; /* match text color */
 }
 
 /* Nav */
@@ -75,13 +110,20 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
+/* Home */
+.home-avatar {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
 /* Footer */
 .footer {
   margin-top: 4rem;
 }
 
 .footer p {
-  font-weight: 500;
+  font-weight: 400;
   color: var(--color-text-accent-2);
 }
 
@@ -108,4 +150,26 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem;
   font-size: 0.9rem;
   font-family: "JetBrains Mono", monospace;
+}
+
+/* Dark Mode */
+body.dark {
+  color: var(--color-dark-text);
+  background-color: var(--color-dark-bg);
+}
+
+.dark a {
+  color: var(--color-dark-text-accent-3);
+}
+
+.dark a:hover {
+  color: var(--color-dark-text-accent);
+}
+
+.dark .footer p {
+  color: var(--color-dark-text-accent-2);
+}
+
+.dark .post-date {
+  color: var(--color-dark-text-accent-2);
 }

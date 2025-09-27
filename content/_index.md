@@ -6,7 +6,7 @@ draft = false
 
 Hello! I'm Febrian.
 
-Software Developer with 3+ years of experience building and maintaining web applications. Currently at PT Kode Inovasi Teknologi (CODR) as Backend Engineer, focusing on backend architecture, API design, and system performance. Previously worked as a Full-stack Developer at PT Batara Guru Teknologi, handling end-to-end development from UI integration to server-side implementation.
+Software Engineer with 3+ years of experience building and maintaining applications. Currently at PT Kode Inovasi Teknologi (CODR) as Backend Engineer, focusing on backend architecture, API design, and system performance. Previously worked as a Full-stack Developer at PT Batara Guru Teknologi, handling end-to-end development from UI integration to server-side implementation.
 
 You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](https://www.linkedin.com/in/febrianamir).
 
