@@ -1,0 +1,10 @@
+baseURL = 'https://febrianamir.github.io/'
+languageCode = 'en-us'
+title = 'Febrian Amir'
+theme = 'febrianamir'
+pagerSize = 10
+
+[params]
+  author = 'Febrian Amir'
+  description = 'Software Developer'
+  github = 'https://github.com/febrianamir'
