@@ -10,6 +10,10 @@ Software Engineer with 3+ years of experience building and maintaining applicati
 
 You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](https://www.linkedin.com/in/febrianamir).
 
+## Download CV
+
+<a href="/documents/cv-febrian-amir.pdf" download>Download CV</a>.
+
 ## Contact
 
-Never hesitate to send me an email at hi.febrianamir@gmail.com 
+Never hesitate to send me an email at hi.febrianamir@gmail.com.

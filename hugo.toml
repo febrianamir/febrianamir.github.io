@@ -18,4 +18,7 @@ pagerSize = 10
     noClasses = false
     codeFences = true
     guessSyntax = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
     
