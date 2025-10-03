@@ -5,28 +5,11 @@
   --color-text-accent-2: #A2A9A6;
   --color-text-accent-3: #799675;
 
- --color-dark-bg: #1E1E1E;              /* dark neutral background */
+  --color-dark-bg: #1E1E1E;              /* dark neutral background */
   --color-dark-text: #E6E6E6;            /* light neutral text */
   --color-dark-text-accent: #9CCF96;     /* lighter green for visibility */
   --color-dark-text-accent-2: #B5BCB8;   /* softer grey-green */
   --color-dark-text-accent-3: #93B689;   /* mid green-grey */
-}
-
-/* Fonts */
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter/InterVariable.woff2') format('woff2-variations');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/fonts/JetBrainsMono/JetBrainsMono[wght].ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
 }
 
 *,
