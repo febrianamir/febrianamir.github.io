@@ -16,4 +16,4 @@ You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](
 
 ## Contact
 
-Never hesitate to send me an email at hi.febrianamir@gmail.com.
+Never hesitate to send me an email at febrianamir.work@gmail.com.
