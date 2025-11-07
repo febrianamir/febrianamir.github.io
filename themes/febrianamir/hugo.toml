@@ -13,6 +13,11 @@ title = 'Febrian Amir'
     pageRef = '/posts'
     weight = 20
 
+  [[menus.main]]
+    name = 'Projects'
+    url = '/projects/'
+    weight = 30
+
   # [[menus.main]]
   #   name = 'Tags'
   #   pageRef = '/tags'

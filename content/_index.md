@@ -6,14 +6,20 @@ draft = false
 
 Hello! I'm Febrian.
 
-Software Engineer with 3+ years of experience building and maintaining applications. Currently at PT Kode Inovasi Teknologi (CODR) as Backend Engineer, focusing on backend architecture, API design, and system performance. Previously worked as a Full-stack Developer at PT Batara Guru Teknologi, handling end-to-end development from UI integration to server-side implementation.
+Software Engineer with over 4 years of experience in building and maintaining applications. Previously worked as a Backend Engineer at PT Kode Inovasi Teknologi (CODR), where I focused on backend architecture, API design, and system performance. Before that, I worked as a Full-Stack Developer at PT Batara Guru Teknologi, managing end-to-end development from UI integration to server-side implementation.
 
 You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](https://www.linkedin.com/in/febrianamir).
 
-## Download CV
+<a class="download-cv-btn" href="/documents/cv-febrian-amir.pdf" download>Download CV</a>
 
-<a href="/documents/cv-febrian-amir.pdf" download>Download CV</a>.
+## Tech Stack
+
+- Frontend: JavaScript (React, Svelte, Next.js)
+- Backend: Go, Node.js (Express)
+- Databases: PostgreSQL, MySQL/MariaDB, MongoDB, SQLite 
+- Caching & Messaging: Redis, Kafka
+- DevOps: Docker
 
 ## Contact
 
-Never hesitate to send me an email at febrianamir.work@gmail.com.
+Feel free to contact me via email at febrianamir.work@gmail.com or WhatsApp at +62 882-0223-38723.
