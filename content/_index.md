@@ -6,7 +6,7 @@ draft = false
 
 Hello! I'm Febrian.
 
-Software Engineer with 4 years of experience building web applications, developing APIs, and designing SQL/NoSQL databases. Proficient in Go, distributed system design, microservice architecture, RESTful API development, and integrating third-party services. Skilled in backend performance optimization, application security, and collaborating with cross-functional teams in agile environments.
+Software Developer with 4 years of experience building web applications, developing APIs, and designing SQL/NoSQL databases. Proficient in Go, distributed system design, microservice architecture, RESTful API development, and integrating third-party services. Skilled in backend performance optimization, application security, and collaborating with cross-functional teams in agile environments.
 
 You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](https://www.linkedin.com/in/febrianamir).
 

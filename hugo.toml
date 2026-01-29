@@ -6,7 +6,7 @@ pagerSize = 10
 
 [params]
   author = 'Febrian Amir'
-  description = 'Software Engineer'
+  description = 'Software Developer'
   github = 'https://github.com/febrianamir'
 
 [caches]
