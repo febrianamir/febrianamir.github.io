@@ -1,8 +1,12 @@
 {{ define "main" }}
-  <img class="home-avatar" src="{{ "images/avatar.jpg" | relURL }}" alt="Avatar">
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">{{ site.Title }}</h1>
+    <p class="hero-subtitle">{{ site.Params.description }}</p>
+  </div>
+  <img class="home-avatar" src="{{ "images/avatar.jpg" | relURL }}" alt="{{ site.Title }}">
+</section>
+<div class="content">
   {{ .Content }}
-  <!-- {{ range site.RegularPages }} -->
-  <!--   <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
-  <!--   {{ .Summary }} -->
-  <!-- {{ end }} -->
+</div>
 {{ end }}

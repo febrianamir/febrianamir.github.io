@@ -1,16 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
   const body = document.body;
-  const toggle = () => {
-    body.classList.toggle('dark');
-    localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+  const btn = document.getElementById('header-theme-toggle');
+  
+  const setTheme = (theme) => {
+    if (theme === 'dark') {
+      body.classList.add('dark');
+    } else {
+      body.classList.remove('dark');
+    }
+    localStorage.setItem('theme', theme);
   };
 
-  if (localStorage.getItem('theme') === 'dark') {
-    body.classList.add('dark');
+  const toggle = () => {
+    const newTheme = body.classList.contains('dark') ? 'light' : 'dark';
+    setTheme(newTheme);
+  };
+
+  // Check for saved theme preference, default to dark
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    setTheme(savedTheme);
   } else {
-    body.classList.remove('dark');
+    // Default to dark mode if no preference saved
+    setTheme('dark');
   }
 
-  const btn = document.getElementById('header-theme-toggle');
-  if (btn) btn.addEventListener('click', toggle);
+  if (btn) {
+    btn.addEventListener('click', toggle);
+  }
 });
