@@ -4,9 +4,6 @@
     <h1 class="hero-title">{{ site.Title }}</h1>
     <p class="hero-subtitle">{{ site.Params.description }}</p>
   </div>
-  <img class="home-avatar" src="{{ "images/avatar.jpg" | relURL }}" alt="{{ site.Title }}">
 </section>
-<div class="content">
-  {{ .Content }}
-</div>
+<div class="content">{{ .Content }}</div>
 {{ end }}

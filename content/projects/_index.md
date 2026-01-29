@@ -4,7 +4,7 @@ date = 2023-01-01T08:30:00-07:00
 draft = false
 +++
 
-Here are some of the projects I've built and maintain. I'm always working on something new, so check back often!
+Here are some of the projects I've built and maintained. I'm always working on something new, so check back often!
 
 <div class="projects-grid">
   <a href="https://mslelang.co.id" class="project-card">
