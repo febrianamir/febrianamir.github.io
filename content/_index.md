@@ -6,7 +6,7 @@ draft = false
 
 Hello! I'm Febrian.
 
-Software Engineer with 4 years of experience designing, developing, and maintaining web applications across multiple business domains. Skilled in backend and full-stack development with a focus on performance, scalability, and system reliability. Experienced in building distributed systems, RESTful APIs, and asynchronous processing pipelines. Proficient in integrating third-party services such as ERP systems and payment gateways, as well as deploying and maintaining production systems.
+Software Engineer with 4 years of experience building web applications, developing APIs, and designing SQL/NoSQL databases. Proficient in Go, distributed system design, microservice architecture, RESTful API development, and integrating third-party services. Skilled in backend performance optimization, application security, and collaborating with cross-functional teams in agile environments.
 
 You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](https://www.linkedin.com/in/febrianamir).
 
@@ -14,11 +14,13 @@ You can also find me on [GitHub](https://github.com/febrianamir) and [LinkedIn](
 
 ## Tech Stack
 
-- Frontend: JavaScript (React, Svelte, Next.js)
-- Backend: Go, Node.js (Express)
-- Databases: PostgreSQL, MySQL/MariaDB, MongoDB, SQLite 
-- Caching & Messaging: Redis, Kafka
-- DevOps: Docker
+- Programming Languages: Go, JavaScript
+- Databases & Caching: PostgreSQL, MySQL, MongoDB, Redis, SQLite
+- Frontend: React, Next.js, Svelte
+- Backend: Node.js, Express, Gin, GORM
+- API Documentation: Swagger, API Blueprint
+- Message Brokers: Kafka, Google Pub/Sub
+- DevOps and Tools: Docker, Git
 
 ## Contact
 
