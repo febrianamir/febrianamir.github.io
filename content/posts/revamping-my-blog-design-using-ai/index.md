@@ -6,7 +6,7 @@ draft = false
 
 A couple of days ago, I realized my blog design was kind of off. I don't really know how to explain it (typical backend-heavy person), it just didn’t feel very consistent or proportional, and the colors definitely needed some improvement. So I decided to revamp it using AI, focusing purely on the visual design without significantly changing the layout or the content.
 
-1. First, I used ChatGPT 5.2 to generate multiple blog design inspirations. I ended up with one that was good enough to move forward with (I choose the first image).
+1. First, I used ChatGPT (GPT-5.2) to generate multiple blog design inspirations. I ended up with one that was good enough to move forward with (I choose the first image).
 
 ![Reference Image](001.png)
 

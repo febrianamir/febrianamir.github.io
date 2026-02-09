@@ -318,7 +318,9 @@ h3 {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s ease, visibility 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
 }
 
 .img-modal.active {
@@ -499,7 +501,8 @@ h3 {
 }
 
 .project-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-bg-secondary);
   border: 1px solid var(--color-border);
   padding: 1rem;
@@ -528,9 +531,17 @@ h3 {
 }
 
 .project-card h3 {
-  margin: 0.5rem 0 0 0;
+  margin: 0.9rem 0 0 0;
   font-size: 1rem;
   font-weight: 600;
+}
+
+.project-card p {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  flex: 1;
 }
 
 .project-badges {
@@ -747,6 +758,10 @@ body.dark {
   box-shadow:
     0 4px 12px rgba(0, 0, 0, 0.25),
     0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.dark .project-card p {
+  color: var(--color-dark-text-muted);
 }
 
 .dark .footer {
